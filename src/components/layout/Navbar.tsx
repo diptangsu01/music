@@ -1,5 +1,6 @@
-import { Music, Palette } from 'lucide-react';
+import { Palette } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
+import DSLogo from '../common/DSLogo';
 
 export default function Navbar() {
   const { currentTheme, setThemeId, availableThemes } = useTheme();
@@ -19,8 +20,8 @@ export default function Navbar() {
           href="#" 
           className="group flex items-center gap-3 transition-opacity hover:opacity-90"
         >
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-[var(--color-accent)]/30 bg-[var(--color-surface)] text-[var(--color-accent)] shadow-sm transition-transform duration-300 group-hover:scale-105">
-            <Music className="h-4 w-4" />
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--color-accent)]/40 bg-[var(--color-surface)] text-[var(--color-accent)] shadow-sm transition-transform duration-300 group-hover:scale-105">
+            <DSLogo size={22} className="text-[var(--color-accent)]" />
           </div>
           <div className="flex flex-col">
             <span className="font-display text-lg tracking-[0.2em] font-medium text-[var(--color-text)] uppercase sm:text-xl">
