@@ -128,6 +128,6 @@ This project follows a feature-branch workflow identical to the Portfolio reposi
 
 ## 👤 Author
 
-**Diptangsu Chakraborty**  
+**Diptangsu Sasmal**  
 - Portfolio: [diptangsu.in](https://diptangsu.in)  
 - GitHub: [@diptangsu01](https://github.com/diptangsu01)
