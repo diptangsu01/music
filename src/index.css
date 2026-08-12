@@ -37,34 +37,32 @@
 }
 
 /* ── Base Reset ───────────────────────────────────────────── */
-@layer base {
-  html {
-    scroll-behavior: smooth;
-    font-family: var(--font-body);
-    background-color: var(--color-bg);
-    color: var(--color-text);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-  }
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
 
-  body {
-    min-height: 100dvh;
-    background-color: var(--color-bg);
-    overflow-x: hidden;
-  }
+body {
+  min-height: 100dvh;
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+}
 
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-  /* Selection highlight */
-  ::selection {
-    background-color: var(--color-accent);
-    color: #0A0A0A;
-  }
+/* Selection highlight */
+::selection {
+  background-color: var(--color-accent);
+  color: #0A0A0A;
 }
 
 /* ── Custom Scrollbar ─────────────────────────────────────── */
